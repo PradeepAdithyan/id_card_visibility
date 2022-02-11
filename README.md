@@ -29,6 +29,7 @@ $ python main.py --mode=train --img_dir=</path/to/directory/containing/images/> 
 
 $ python main.py --mode=predict --path_to_image=</pah/to/image/ 						(e.g. ../data/images/GICSD_26_7_213.png)> \
                               		  --model_location=</pah/to/model.hdf5 							(e.g. ../artifacts/prod_resnet50_oversampling_model.h5)>
+					  
 Future Work :
 Preprocessing:
 Create custom generator with Balanced Batch as well as more augmentation functions than keras ImageDataGenerator supports (e.g. gaussian noise).
