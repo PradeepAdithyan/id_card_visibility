@@ -8,7 +8,7 @@ Loss: Categorical cross entropy.
 
 Dependencies :
 
-pip install tensorflow==2.0.0
+pip install tensorflow==2.0.0 \n
 pip install tensorflow-gpu==2.0.0
 pip install keras==2.3.1
 pip install pandas==0.25.3
